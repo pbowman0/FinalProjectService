@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F21D25627F35B810089B4EF /* FinalProjectServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D25527F35B810089B4EF /* FinalProjectServiceApp.swift */; };
-		3F21D25827F35B810089B4EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D25727F35B810089B4EF /* ContentView.swift */; };
+		3F21D25827F35B810089B4EF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D25727F35B810089B4EF /* LoginView.swift */; };
 		3F21D25A27F35B880089B4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F21D25927F35B880089B4EF /* Assets.xcassets */; };
 		3F21D25D27F35B880089B4EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F21D25C27F35B880089B4EF /* Preview Assets.xcassets */; };
 		3F21D26827F35B880089B4EF /* FinalProjectServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D26727F35B880089B4EF /* FinalProjectServiceTests.swift */; };
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		3F21D25227F35B810089B4EF /* FinalProjectService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F21D25527F35B810089B4EF /* FinalProjectServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectServiceApp.swift; sourceTree = "<group>"; };
-		3F21D25727F35B810089B4EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F21D25727F35B810089B4EF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3F21D25927F35B880089B4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F21D25C27F35B880089B4EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F21D25E27F35B880089B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				3F21D25527F35B810089B4EF /* FinalProjectServiceApp.swift */,
-				3F21D25727F35B810089B4EF /* ContentView.swift */,
+				3F21D25727F35B810089B4EF /* LoginView.swift */,
 				3F21D25927F35B880089B4EF /* Assets.xcassets */,
 				3F21D25E27F35B880089B4EF /* Info.plist */,
 				3F21D25B27F35B880089B4EF /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F21D25827F35B810089B4EF /* ContentView.swift in Sources */,
+				3F21D25827F35B810089B4EF /* LoginView.swift in Sources */,
 				3F21D25627F35B810089B4EF /* FinalProjectServiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

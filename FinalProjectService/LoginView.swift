@@ -13,7 +13,7 @@ struct LoginView: View {
     var body: some View {
         VStack(spacing: 15){
             Spacer()
-            Text("APP NAME")
+            Text("Service App")
                 .font(.system(size: 64, weight: .semibold))
                 .foregroundColor(.white)
             HStack{
@@ -35,16 +35,13 @@ struct LoginView: View {
             Button(action: {}) {
                 Text("Login")
                     .foregroundColor(.white)
-                    .font(.system(size: 24, weight: .medium))
+                    .font(.system(size:24, weight: .medium))
             }.frame(maxWidth: .infinity)
             .padding(.vertical, 20)
-            .background(Color.red.opacity(0.8))
+            .background(Color.blue.opacity(0.8))
             .cornerRadius(8)
-            .padding(.horizontal,20)
-            Button(action: {}) {
-                Text("Login")
-                    .foregroundColor(<#T##color: Color?##Color?#>)
-            }
+            .padding(.horizontal, 20)
+            Spacer()
             Spacer()
         }.background(
             Image("LoginScreen")
@@ -61,6 +58,7 @@ struct LoginView_Previews: PreviewProvider {
         Group {
             LoginView().previewDevice("iPhone 8")
             LoginView().previewDevice("iPhone x")
+            LoginView().previewDevice("iPhone 11")
             LoginView().previewDevice("iPhone 11 Pro")
         }
     }

@@ -51,7 +51,17 @@ struct LoginView: View {
     }
 }
         
-       
+struct ButtonNextView: View {
+    var body: some View {
+        NavigationView {
+            NavigationLink(destination: Text("Second View")) {
+                    Text("Hello, World!") //SECOND VIEW FEATURES
+                }
+                .navigationTitle("Navigation")
+            }
+
+        }
+    }
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {

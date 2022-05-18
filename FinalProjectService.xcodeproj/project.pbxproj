@@ -14,6 +14,7 @@
 		3F21D26827F35B880089B4EF /* FinalProjectServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D26727F35B880089B4EF /* FinalProjectServiceTests.swift */; };
 		3F21D27327F35B890089B4EF /* FinalProjectServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D27227F35B890089B4EF /* FinalProjectServiceUITests.swift */; };
 		3F21D28127FF393F0089B4EF /* SegueToServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D28027FF393F0089B4EF /* SegueToServiceListViewController.swift */; };
+		3F21D2832833FC490089B4EF /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D2822833FC490089B4EF /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F21D27227F35B890089B4EF /* FinalProjectServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectServiceUITests.swift; sourceTree = "<group>"; };
 		3F21D27427F35B890089B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F21D28027FF393F0089B4EF /* SegueToServiceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueToServiceListViewController.swift; sourceTree = "<group>"; };
+		3F21D2822833FC490089B4EF /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3F21D25527F35B810089B4EF /* FinalProjectServiceApp.swift */,
 				3F21D25727F35B810089B4EF /* LoginView.swift */,
+				3F21D2822833FC490089B4EF /* SecondView.swift */,
 				3F21D28027FF393F0089B4EF /* SegueToServiceListViewController.swift */,
 				3F21D25927F35B880089B4EF /* Assets.xcassets */,
 				3F21D25E27F35B880089B4EF /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				3F21D25827F35B810089B4EF /* LoginView.swift in Sources */,
 				3F21D28127FF393F0089B4EF /* SegueToServiceListViewController.swift in Sources */,
+				3F21D2832833FC490089B4EF /* SecondView.swift in Sources */,
 				3F21D25627F35B810089B4EF /* FinalProjectServiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

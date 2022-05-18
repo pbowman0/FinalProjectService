@@ -7,9 +7,24 @@
 
 import SwiftUI
 
+
+struct NextView:View {
+    var body: some View {
+        NavigationView {
+            VStack {
+                NavigationLink(destination: SecondView(), label: {
+                    Text("Login")
+                })
+            }
+        }
+    }
+}
+
+
 struct LoginView: View {
     @State var email = ""
     @State var password = ""
+    
     var body: some View {
         VStack(spacing: 15){
             Spacer()
@@ -32,11 +47,14 @@ struct LoginView: View {
             .background(Color.white)
             .cornerRadius(8)
             .padding(.horizontal, 20)
-            Button(action: {}) {
-                Text("Login")
-                    .foregroundColor(.white)
-                    .font(.system(size:24, weight: .medium))
-            }.frame(maxWidth: .infinity)
+            
+                Button(action: {}) {
+                    Text("Login")
+                        .foregroundColor(.white)
+                        .font(.system(size:24, weight: .medium))
+                }.frame(maxWidth: .infinity)
+                .navigationTitle("LogintoSecond")
+        
             .padding(.vertical, 20)
             .background(Color.blue.opacity(0.8))
             .cornerRadius(8)
@@ -51,17 +69,9 @@ struct LoginView: View {
     }
 }
         
-struct ButtonNextView: View {
-    var body: some View {
-        NavigationView {
-            NavigationLink(destination: Text("Second View")) {
-                    Text("Hello, World!") //SECOND VIEW FEATURES
-                }
-                .navigationTitle("Navigation")
-            }
 
-        }
-    }
+
+
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
@@ -73,4 +83,5 @@ struct LoginView_Previews: PreviewProvider {
         }
     }
 }
+
 

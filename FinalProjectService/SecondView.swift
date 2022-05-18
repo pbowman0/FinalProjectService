@@ -27,7 +27,7 @@ struct DropDown: View {
     
     var body: some View {
         
-        VStack(alignment: .leading, spacing: 10, content: {
+        VStack(alignment: .leading, spacing: 20, content: {
             
             HStack{
                 
@@ -55,6 +55,24 @@ struct DropDown: View {
                     
                 }) {
                     Text("Tutoring")
+                }.foregroundColor(.white)
+                
+                Button(action: {
+                    
+                }) {
+                    Text("Pet Sitting")
+                }.foregroundColor(.white)
+                
+                Button(action: {
+                    
+                }) {
+                    Text("House Cleaning")
+                }.foregroundColor(.white)
+                
+                Button(action: {
+                    
+                }) {
+                    Text("Snow Plowing")
                 }.foregroundColor(.white)
             }
              

@@ -25,8 +25,9 @@ struct DropDown: View {
     
     @State var availableServices = false
     
+    
     var body: some View {
-        
+        NavigationView{
         VStack(alignment: .leading, spacing: 20, content: {
             
             HStack{
@@ -39,41 +40,31 @@ struct DropDown: View {
             }
             
             if availableServices{
-                Button(action: {
-                    
-                }) {
-                    Text("Lawn Mowing")
-                }.foregroundColor(.white)
                 
-                Button(action: {
-                    
-                }) {
-                    Text("Baby Sitting")
-                }.foregroundColor(.white)
+                NavigationLink(destination: lawnMowingView()){
+                    Text("Lawn Mowing").foregroundColor(.white)
+                }
+            
                 
-                Button(action: {
-                    
-                }) {
-                    Text("Tutoring")
-                }.foregroundColor(.white)
+                NavigationLink(destination: babySittingView()){
+                    Text("Baby Sitting").foregroundColor(.white)
+                }
                 
-                Button(action: {
-                    
-                }) {
-                    Text("Pet Sitting")
-                }.foregroundColor(.white)
+                NavigationLink(destination: tutoringView()){
+                    Text("Tutoring").foregroundColor(.white)
+                }
                 
-                Button(action: {
-                    
-                }) {
-                    Text("House Cleaning")
-                }.foregroundColor(.white)
+                NavigationLink(destination: petSittingView()){
+                    Text("Pet Sitting").foregroundColor(.white)
+                }
                 
-                Button(action: {
-                    
-                }) {
-                    Text("Snow Plowing")
-                }.foregroundColor(.white)
+                NavigationLink(destination: houseCleaning()){
+                    Text("House Cleaning").foregroundColor(.white)
+                }
+                
+                NavigationLink(destination: snowPlowingView()){
+                    Text("Snow Plowing").foregroundColor(.white)
+                }
             }
              
         })
@@ -82,4 +73,5 @@ struct DropDown: View {
         .cornerRadius(20)
         .animation(.spring())
     }
+}
 }

@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct babySitting: View {
+struct babySittingView: View {
     var body: some View {
         
         babySittingDropDown()
     }
 }
 
-struct babySitting_Previews: PreviewProvider {
+struct babySittingView_Previews: PreviewProvider {
     static var previews: some View {
         babySitting()
     }

@@ -26,6 +26,7 @@ struct LoginView: View {
     @State var password = ""
     
     var body: some View {
+        NavigationView{
         VStack(spacing: 15){
             Spacer()
             Text("Service App")
@@ -48,15 +49,14 @@ struct LoginView: View {
             .cornerRadius(8)
             .padding(.horizontal, 20)
             
-                Button(action: {}) {
-                    Text("Login")
-                        .foregroundColor(.white)
-                        .font(.system(size:24, weight: .medium))
-                }.frame(maxWidth: .infinity)
+            NavigationLink(destination: SecondView()){
+                
+                Text("Login")
+            }.frame(maxWidth: .infinity)
                 .navigationTitle("LogintoSecond")
         
             .padding(.vertical, 20)
-            .background(Color.blue.opacity(0.8))
+            .background(Color.white.opacity(0.8))
             .cornerRadius(8)
             .padding(.horizontal, 20)
             Spacer()
@@ -66,6 +66,8 @@ struct LoginView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
         ).edgesIgnoringSafeArea(.all)
+        .navigationBarHidden(true)
+    }
     }
 }
         

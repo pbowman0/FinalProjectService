@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct petSitting: View {
+struct petSittingView: View {
     var body: some View {
         petSittingDropDown()
     }
 }
 
-struct petSitting_Previews: PreviewProvider {
+struct petSittingView_Previews: PreviewProvider {
     static var previews: some View {
         petSitting()
     }

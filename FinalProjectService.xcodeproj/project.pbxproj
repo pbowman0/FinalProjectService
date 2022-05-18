@@ -13,8 +13,13 @@
 		3F21D25D27F35B880089B4EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F21D25C27F35B880089B4EF /* Preview Assets.xcassets */; };
 		3F21D26827F35B880089B4EF /* FinalProjectServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D26727F35B880089B4EF /* FinalProjectServiceTests.swift */; };
 		3F21D27327F35B890089B4EF /* FinalProjectServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D27227F35B890089B4EF /* FinalProjectServiceUITests.swift */; };
-		3F21D28127FF393F0089B4EF /* SegueToServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D28027FF393F0089B4EF /* SegueToServiceListViewController.swift */; };
 		3F21D2832833FC490089B4EF /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D2822833FC490089B4EF /* SecondView.swift */; };
+		3FD6198E28348458001D2E82 /* lawnMowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD6198D28348458001D2E82 /* lawnMowingView.swift */; };
+		3FD6199028348474001D2E82 /* babySittingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD6198F28348474001D2E82 /* babySittingView.swift */; };
+		3FD619922834848B001D2E82 /* tutoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD619912834848B001D2E82 /* tutoringView.swift */; };
+		3FD61994283484C5001D2E82 /* petSittingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD61993283484C5001D2E82 /* petSittingView.swift */; };
+		3FD61996283484D9001D2E82 /* houseCleaningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD61995283484D9001D2E82 /* houseCleaningView.swift */; };
+		3FD61998283484F1001D2E82 /* snowPlowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD61997283484F1001D2E82 /* snowPlowingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +52,13 @@
 		3F21D26E27F35B890089B4EF /* FinalProjectServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F21D27227F35B890089B4EF /* FinalProjectServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectServiceUITests.swift; sourceTree = "<group>"; };
 		3F21D27427F35B890089B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F21D28027FF393F0089B4EF /* SegueToServiceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueToServiceListViewController.swift; sourceTree = "<group>"; };
 		3F21D2822833FC490089B4EF /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		3FD6198D28348458001D2E82 /* lawnMowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lawnMowingView.swift; sourceTree = "<group>"; };
+		3FD6198F28348474001D2E82 /* babySittingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = babySittingView.swift; sourceTree = "<group>"; };
+		3FD619912834848B001D2E82 /* tutoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutoringView.swift; sourceTree = "<group>"; };
+		3FD61993283484C5001D2E82 /* petSittingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petSittingView.swift; sourceTree = "<group>"; };
+		3FD61995283484D9001D2E82 /* houseCleaningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseCleaningView.swift; sourceTree = "<group>"; };
+		3FD61997283484F1001D2E82 /* snowPlowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snowPlowingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +112,12 @@
 				3F21D25527F35B810089B4EF /* FinalProjectServiceApp.swift */,
 				3F21D25727F35B810089B4EF /* LoginView.swift */,
 				3F21D2822833FC490089B4EF /* SecondView.swift */,
-				3F21D28027FF393F0089B4EF /* SegueToServiceListViewController.swift */,
+				3FD6198D28348458001D2E82 /* lawnMowingView.swift */,
+				3FD6198F28348474001D2E82 /* babySittingView.swift */,
+				3FD619912834848B001D2E82 /* tutoringView.swift */,
+				3FD61993283484C5001D2E82 /* petSittingView.swift */,
+				3FD61995283484D9001D2E82 /* houseCleaningView.swift */,
+				3FD61997283484F1001D2E82 /* snowPlowingView.swift */,
 				3F21D25927F35B880089B4EF /* Assets.xcassets */,
 				3F21D25E27F35B880089B4EF /* Info.plist */,
 				3F21D25B27F35B880089B4EF /* Preview Content */,
@@ -265,9 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD61998283484F1001D2E82 /* snowPlowingView.swift in Sources */,
+				3FD619922834848B001D2E82 /* tutoringView.swift in Sources */,
 				3F21D25827F35B810089B4EF /* LoginView.swift in Sources */,
-				3F21D28127FF393F0089B4EF /* SegueToServiceListViewController.swift in Sources */,
+				3FD6198E28348458001D2E82 /* lawnMowingView.swift in Sources */,
+				3FD61996283484D9001D2E82 /* houseCleaningView.swift in Sources */,
 				3F21D2832833FC490089B4EF /* SecondView.swift in Sources */,
+				3FD61994283484C5001D2E82 /* petSittingView.swift in Sources */,
+				3FD6199028348474001D2E82 /* babySittingView.swift in Sources */,
 				3F21D25627F35B810089B4EF /* FinalProjectServiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
